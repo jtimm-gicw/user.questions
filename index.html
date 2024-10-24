@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+        #paragraph_1 {
+            color: blue;
+            background: lightskyblue;
+            margin: 10px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        #paragraph_2 {
+            color: green;
+            background: lightgreen;
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+        }
+        #paragraph_3 {
+            color: red;
+            background: pink;
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+        }
+        #paragraph_4 {
+            color: yellow;
+            background: rgba(255, 166, 0, 0.769);
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p id="paragraph_1">What is your name?</p>
+        <p id="paragraph_2">What is your favorite kind of music?</p>
+        <p id="paragraph_3">What is your favorite smell?</p>
+        <p id="paragraph_4">Name a movie you have watched more than 3 times.</p>
+        
+        
+        
+
+
+
+
+
+
+    </main>
+
+    <script>
+           let user = prompt('What is your name?');
+           console.log('The user\'s name is ' + user)
+
+           let music = prompt ('What\'s your favorite kind of music')
+           console.log('Your favorite kind of music is  ' + music);
+
+           let smell = prompt('What is your favorite smell?');
+           console.log('I love the smell of ' + smell + ' in the morning!');
+
+           let movie = prompt('Name a movie you have watched more than 3 times.');
+           console.log(movie + 'is a great movie!')
+
+           alert ('Hi, ' + user + '.' + ' You like to listen to ' + music + '.' + ' You also like the smell of ' + smell + '.' + ' A movie you have seen more that 3 times is ' + movie + '.' + ' That\'s a great movie!')
+        
+
+           
+    </script>
+</body>
+</html>
